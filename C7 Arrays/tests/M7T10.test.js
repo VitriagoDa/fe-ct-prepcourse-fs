@@ -6,16 +6,7 @@ describe('obtenerPrimerStringLargo', () => {
          obtenerPrimerStringLargo(['hello', 'world', 'this', 'is', 'a', 'test'])
       ).toBe('hello');
       expect(
-         obtenerPrimerStringLargo([
-            'this',
-            'is',
-            'a',
-            'test',
-            'with',
-            'a',
-            'long',
-            'string',
-         ])
+         obtenerPrimerStringLargo(['this','is','a','test','with','a','long','string'])
       ).toBe('string');
    });
 
